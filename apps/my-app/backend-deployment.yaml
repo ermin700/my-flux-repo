@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: backend
-        image: localhost:5000/my-backend:latest
+        image: ermin700/my-backend
         ports:
         - containerPort: 5000
